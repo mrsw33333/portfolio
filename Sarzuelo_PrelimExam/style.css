@@ -1,0 +1,36 @@
+
+body{
+    text-align: center;
+    background-color:pink;
+}
+a{
+	
+	padding: 10px 15px;
+}
+a:active,
+a:hover{
+		background: #000000;
+	color: #fff;;
+	transition: 0.4s all ease-out
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about{
+	border-radius: 50%;
+}
+.name{
+	padding: 10px 15px;
+	font-size: 20px;
+	text-align: justify-all;
+}
+table, tr, td{
+	border:5px solid black;
+	padding: 10px 15px;
+	border-collapse: collapse;
+	font-size: 15px;
+
+}

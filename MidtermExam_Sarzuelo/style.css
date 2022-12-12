@@ -1,0 +1,297 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #1e272e;
+font-family: cursive;
+}
+.bg1{
+	background-image: url(img/bg2.jpg);
+	background-size:100% 100vh;
+	
+}
+
+.logo {
+	position: absolute;
+	margin-top: -60px;
+	margin-left:-50px ;
+	}
+
+nav{
+	width: 100%;
+	background: rgb(0, 0, 0, 0.7);
+	height: 70px;
+	
+	border-bottom: 1px solid yellowgreen;
+	
+}
+nav ul li a{
+	color: white;
+	line-height: 60px;
+	padding: 12px 30px;
+	font-size: 14px;
+	text-decoration: none;
+	border-radius: 6px;
+	margin-right: 10px;
+}
+ul{
+	padding: 0;
+	margin: 0 0 0 150px;
+	list-style: none;
+}
+li{
+	float: right;
+}
+nav a{
+		width: 100px;
+		display: flex;
+		padding: 20px 15px;
+		
+		color: #f2f2f2;
+		text-align: center;
+	}
+
+
+nav ul li a:hover{
+    background-color: yellowgreen;
+  color: white;
+  transition: 0.4s all ease-out
+  }
+.hp{
+	background: transparent;
+	width: 600px;
+	height: 500px;
+	margin: 100px;
+	border-radius: 15px;
+	text-align: center;
+	margin-left: 35%;
+}
+h1{
+	color: whitesmoke;
+	text-align: center;
+}
+p{
+
+color: whitesmoke;
+	text-align: justify;
+	font-size: 20px;
+
+}
+button{
+	position: relative;
+	border: 0;
+	display: inline-block;
+	width: 12rem;
+	height: auto;
+	cursor: pointer;
+	outline: none;
+	vertical-align: middle;
+	background: transparent;
+}
+.text{
+	position: absolute;
+	inset: 0;
+	padding: 0.rem 0;
+	margin-left: 1.85rem;
+	color: #f82936;
+	line-height: 1.6;
+	text-align: center;
+	transition: all 0.4s ease-in-out;
+}
+.cursive{
+	position: relative;
+	border: 0;
+	margin: 0;
+	width: 3rem;
+	height: 3rem;
+	background: #f82936;
+	border-radius: 1.625rem;
+	transition: all 0.4s ease-in-out;
+}
+.icon{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: #fff;
+}
+.arrow{
+	left: 0.625rem;
+	width: 1.125rem;
+	height: 0.125rem;
+	background: none;
+	transition: all 0.4s ease-in-out;
+
+}
+.arrow::before{
+	content: "";
+	position: absolute;
+	top: 0.3rem;
+	right: 0.0625rem;
+	width: 0.625rem;
+	height: 0.625rem;
+	border-top: 0.125rem solid #fff;
+	border-right:  0.125rem solid #fff;
+	transform: rotate(45deg);
+}
+button:hover.circle{
+	width: 100%;
+}
+button:hover.arrow{
+	background: #fff;
+	transform: translateX(1rem);
+}
+button:hover.text{
+	color: #fff;
+}
+.text:hover{
+
+  color: blue;
+  transition: 0.4s all ease-out
+}
+.hp1{
+	background: yellowgreen;
+	width: 400px;
+	height: 170px;
+	margin: 50px;
+	border-radius: 15px;
+	text-align: center;
+	margin-left: 40%;
+	color: black;
+}
+h3{
+	font-size: 40px;
+}
+
+.flex-container{
+ display: flex;
+
+ margin: 50px 0;
+ flex-wrap: wrap;
+ flex-direction: row;
+
+ justify-content: space-around;
+ padding: 20px;
+
+
+ 
+}
+.card{
+	
+	width: 600px;
+	height: 500px;
+	margin: 10px;
+	border-radius: 15px ;
+}
+.flex-box{
+	
+	height: 400px;
+	margin-bottom: 15px;
+	background-size: cover;
+border-radius: 15px 15px ;
+
+
+
+
+
+}
+.flex-box:hover {
+  transform: scale(1.2);
+  transition: transform ease 1s;
+}
+.img1{
+	background-image: url("img/1.jpg");
+}
+.img2{
+	background-image: url("img/2.jpg");
+}
+.img3{
+	background-image: url("img/3.jpg");
+}
+.img4{
+	background-image: url("img/4.jpg");
+}
+.img5{
+	background-image: url("img/5.jpg");
+}
+.img6{
+	background-image: url("img/6.jpg");
+}
+.img7{
+	background-image: url("img/7.jpg");
+}
+.img8{
+	background-image: url("img/8.jpg");
+}
+.img9{
+	background-image: url("img/9.jpg");
+}
+.hp2{
+	background: yellowgreen;
+	width: 400px;
+	height: 100px;
+	margin: 20px;
+	border-radius: 15px;
+	text-align: center;
+	margin-left: 7%;
+
+	
+}
+h4{
+	color: whitesmoke;
+	text-align: left;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.logo2 {
+	
+	margin-top: -60px;
+	margin-left:-50px ;
+	}
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100vw;
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content{
+	display: flex;
+	align-item: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 14px;
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials li{
+	margin: 0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+.socials a i{
+	font-size: 1.1rem;
+	transition: color.4s ease;
+
+}
+.socials a:hover i{
+	color: aqua;
+}
+
